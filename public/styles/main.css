@@ -1,8 +1,8 @@
 body {
-    background: #222;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-        helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-    color: hotpink;
+    background: #f5f5f5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    margin: 0;
 }
 
 main {
@@ -19,21 +19,34 @@ main {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 input {
     appearance: none;
     -webkit-appearance: none;
     border: 0;
-    font-size: 0.9rem;
-    background: #888;
+    font-size: 1.2rem;
+    background: #3498db;
     padding: 1rem;
-    color: white;
+    color: #fff;
     cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input:hover {
+    background: #2980b9;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    width: 100%;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem;
+    text-align: center;
 }
